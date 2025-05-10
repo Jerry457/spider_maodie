@@ -6,8 +6,8 @@ Assets = {
     Asset("ANIM", "anim/spider_maodie_basic.zip"),
     Asset("ANIM", "anim/spider_maodie_boat_jump.zip"),
 
-    Asset("ANIM", "anim/spider_warrior_maodie_basic.zip"),
     Asset("ANIM", "anim/spider_warrior_build.zip"),
+    Asset("ANIM", "anim/spider_warrior_maodie_basic.zip"),
 
     Asset("SOUNDPACKAGE", "sound/spider.fev"),
     Asset("SOUND", "sound/spider_bank.fsb"),
