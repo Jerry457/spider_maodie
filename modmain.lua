@@ -47,7 +47,11 @@ for _, prefab in ipairs(prefabs) do
     GLOBAL.resolvefilepath("anim/" .. prefab .. "_build.zip")
 
     for _, event in ipairs(sound_events) do
-        RemapSoundEvent("dontstarve/creatures/" .. prefab .. "/" .. event, "spider/" .. prefab .. "/" .. event)
+        local creature = "spider"
+        if prefab == "spider_warrior" then
+            creature = "spiderwarrior"
+        end
+        RemapSoundEvent("dontstarve/creatures/" .. creature .. "/" .. event, "spider/" .. prefab .. "/" .. event)
     end
 
     AddPrefabPostInit(prefab, function(inst)
