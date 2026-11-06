@@ -4,7 +4,7 @@ local function en_zh(en, zh)  -- Other languages don't work
 end
 
 -- This information tells other players more about the mod
-version = "0.1.6" -- mod版本 上传mod需要两次的版本不一样
+version = "2026.11.06" -- mod版本 上传mod需要两次的版本不一样
 name = en_zh("Maodie Cat instead of Spider", "耄耋替换蜘蛛")  ---mod名字
 description = en_zh("V".. version .. 
  "\n󰀀This is a cat that originated from the Chinese internet community and rose to fame for its exceptional boxing skills.\n󰀫Now it has arrived in The Constant, taking the place of spiders as a hostile entity in the game.\nThe sound effect has been reduced and it won't be too noisy.",
