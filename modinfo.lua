@@ -32,7 +32,7 @@ reign_of_giants_compatible = false --不兼容巨人DLC
 
 -- Character mods need this set to true
 all_clients_require_mod = false
-client_only_mod = true --所有人mod
+client_only_mod = true --仅客户端mod
 
 priority = 9999
 
